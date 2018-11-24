@@ -1,0 +1,185 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://driftrock-dev-test.herokuapp.com/users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 24 Nov 2018 12:45:12 GMT
+      connection:
+      - close
+      content-type:
+      - application/json
+      content-length:
+      - '2766'
+      x-content-type-options:
+      - nosniff
+      server:
+      - thin
+      via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"KZHR-1H35-2IH8-JXYN","first_name":"Quincy","last_name":"Schimmel","phone":"186.301.6921
+        x948","email":"schimmel_quincy@ernser.io"},{"id":"S27G-8UMJ-LDSL-UOPN","first_name":"Henry","last_name":"Terry","phone":"636-387-6074
+        x690","email":"terry_henry@doyle.io"},{"id":"HTNF-7RJY-YFCU-GUN2","first_name":"Tierra","last_name":"Langosh","phone":"570-113-3234
+        x7287","email":"langosh.tierra@erdman.co"},{"id":"ZZLB-4HCN-OA3N-LGWB","first_name":"Jack","last_name":"Lakin","phone":"(620)
+        104-0175","email":"jack_lakin@rodriguezschuppe.io"},{"id":"9ULJ-MRE5-D2Q3-JW90","first_name":"Keaton","last_name":"Bahringer","phone":"121-798-7807
+        x196","email":"keaton.bahringer@moriettedicki.net"},{"id":"UGVF-VMM8-O666-O3O9","first_name":"Eliseo","last_name":"Zieme","phone":"516.943.5559
+        x15170","email":"eliseo.zieme@bosco.info"},{"id":"6TW3-5C51-K7VY-RY4A","first_name":"Adalberto","last_name":"Gottlieb","phone":"677-558-8648
+        x60347","email":"adalberto_gottlieb@reynolds.biz"},{"id":"NGE1-SZL3-4WUU-NWD9","first_name":"Dashawn","last_name":"Wisozk","phone":"749-973-5277","email":"wisozk_dashawn@wilkinson.io"},{"id":"NIU9-LO98-MZQG-E4RP","first_name":"Reid","last_name":"Hegmann","phone":"791.683.1822","email":"hegmann_reid@white.biz"},{"id":"7IE1-PDJ4-IPH6-8K3L","first_name":"Lou","last_name":"Homenick","phone":"(665)
+        066-8908 x682","email":"homenick_lou@kuhntrantow.org"},{"id":"BMCS-1VS1-39KR-7OUM","first_name":"Travis","last_name":"Kshlerin","phone":"(201)
+        847-6364 x460","email":"travis_kshlerin@wunsch.net"},{"id":"E05Z-S8A5-2MRB-RKBJ","first_name":"Sarah","last_name":"Homenick","phone":"1-529-898-8017
+        x07658","email":"sarah.homenick@gulgowski.com"},{"id":"T8VE-2OW8-A7SF-JZOB","first_name":"Jamison","last_name":"Ebert","phone":"266.994.7583
+        x736","email":"ebert.jamison@murray.io"},{"id":"PJ69-9VN5-D5NA-IEB4","first_name":"Sanford","last_name":"Feeney","phone":"859-843-5951
+        x888","email":"sanford_feeney@reichel.net"},{"id":"EBWH-1WRI-HM73-0X9K","first_name":"Fermin","last_name":"Walter","phone":"(622)
+        376-6849","email":"walter.fermin@braunhuel.org"},{"id":"0RLF-9CWU-F15C-4S1N","first_name":"Maye","last_name":"Balistreri","phone":"(551)
+        674-0636","email":"balistreri_maye@kiehn.com"},{"id":"HRZH-TR5Y-OVZN-2ZHI","first_name":"Elouise","last_name":"Oberbrunner","phone":"1-736-090-9252
+        x9834","email":"elouise_oberbrunner@bradtke.io"},{"id":"EIGM-YGNY-BE29-UXXY","first_name":"Malvina","last_name":"Pagac","phone":"606-861-0607
+        x30228","email":"pagac.malvina@okuneva.co"},{"id":"HEI7-W5NW-OO9S-Z382","first_name":"Pearlie","last_name":"Yost","phone":"731.569.9844
+        x608","email":"pearlie.yost@greenholt.biz"},{"id":"FFWN-1CKR-X4WU-Q44M","first_name":"Kelley","last_name":"Paucek","phone":"657.511.1172","email":"kelley_paucek@jakubowski.biz"}]}'
+    http_version: 
+  recorded_at: Sat, 24 Nov 2018 12:45:12 GMT
+- request:
+    method: get
+    uri: https://driftrock-dev-test.herokuapp.com/purchases
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 24 Nov 2018 12:45:12 GMT
+      connection:
+      - close
+      content-type:
+      - application/json
+      content-length:
+      - '8146'
+      x-content-type-options:
+      - nosniff
+      server:
+      - thin
+      via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Awesome Marble Clock","spend":"69.44"},{"user_id":"HEI7-W5NW-OO9S-Z382","item":"Synergistic
+        Concrete Pants","spend":"9.87"},{"user_id":"HEI7-W5NW-OO9S-Z382","item":"Synergistic
+        Concrete Pants","spend":"76.06"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Durable
+        Wool Shoes","spend":"66.35"},{"user_id":"T8VE-2OW8-A7SF-JZOB","item":"Durable
+        Wool Shoes","spend":"31.3"},{"user_id":"PJ69-9VN5-D5NA-IEB4","item":"Mediocre
+        Wooden Keyboard","spend":"76.0"},{"user_id":"NIU9-LO98-MZQG-E4RP","item":"Gorgeous
+        Aluminum Plate","spend":"30.84"},{"user_id":"EIGM-YGNY-BE29-UXXY","item":"Durable
+        Aluminum Bag","spend":"5.2"},{"user_id":"T8VE-2OW8-A7SF-JZOB","item":"Rustic
+        Steel Wallet","spend":"80.34"},{"user_id":"PJ69-9VN5-D5NA-IEB4","item":"Synergistic
+        Bronze Bottle","spend":"35.55"},{"user_id":"NGE1-SZL3-4WUU-NWD9","item":"Incredible
+        Linen Pants","spend":"30.78"},{"user_id":"7IE1-PDJ4-IPH6-8K3L","item":"Gorgeous
+        Steel Computer","spend":"17.75"},{"user_id":"HEI7-W5NW-OO9S-Z382","item":"Gorgeous
+        Silk Table","spend":"53.43"},{"user_id":"EIGM-YGNY-BE29-UXXY","item":"Gorgeous
+        Rubber Shoes","spend":"71.43"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Aerodynamic
+        Concrete Bag","spend":"35.38"},{"user_id":"HEI7-W5NW-OO9S-Z382","item":"Intelligent
+        Wooden Hat","spend":"46.49"},{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Small
+        Silk Clock","spend":"25.96"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Mediocre
+        Paper Bottle","spend":"27.09"},{"user_id":"HTNF-7RJY-YFCU-GUN2","item":"Synergistic
+        Steel Table","spend":"21.17"},{"user_id":"NGE1-SZL3-4WUU-NWD9","item":"Awesome
+        Plastic Gloves","spend":"1.78"},{"user_id":"NIU9-LO98-MZQG-E4RP","item":"Intelligent
+        Plastic Shirt","spend":"58.96"},{"user_id":"ZZLB-4HCN-OA3N-LGWB","item":"Synergistic
+        Steel Car","spend":"98.14"},{"user_id":"9ULJ-MRE5-D2Q3-JW90","item":"Gorgeous
+        Copper Pants","spend":"44.96"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Small
+        Rubber Watch","spend":"2.06"},{"user_id":"HEI7-W5NW-OO9S-Z382","item":"Intelligent
+        Linen Watch","spend":"62.63"},{"user_id":"9ULJ-MRE5-D2Q3-JW90","item":"Aerodynamic
+        Cotton Pants","spend":"84.38"},{"user_id":"EIGM-YGNY-BE29-UXXY","item":"Lightweight
+        Marble Bag","spend":"10.51"},{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Synergistic
+        Rubber Plate","spend":"2.09"},{"user_id":"EBWH-1WRI-HM73-0X9K","item":"Intelligent
+        Rubber Car","spend":"88.44"},{"user_id":"7IE1-PDJ4-IPH6-8K3L","item":"Enormous
+        Wooden Hat","spend":"82.26"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Durable
+        Concrete Computer","spend":"59.69"},{"user_id":"UGVF-VMM8-O666-O3O9","item":"Small
+        Rubber Computer","spend":"33.49"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Awesome
+        Leather Clock","spend":"69.21"},{"user_id":"KZHR-1H35-2IH8-JXYN","item":"Incredible
+        Iron Pants","spend":"84.93"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Small
+        Leather Clock","spend":"7.4"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Heavy
+        Duty Concrete Watch","spend":"24.26"},{"user_id":"HTNF-7RJY-YFCU-GUN2","item":"Heavy
+        Duty Concrete Watch","spend":"2.09"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Heavy
+        Duty Concrete Watch","spend":"62.37"},{"user_id":"6TW3-5C51-K7VY-RY4A","item":"Heavy
+        Duty Concrete Watch","spend":"48.67"},{"user_id":"KZHR-1H35-2IH8-JXYN","item":"Incredible
+        Granite Hat","spend":"76.89"},{"user_id":"NIU9-LO98-MZQG-E4RP","item":"Small
+        Wooden Chair","spend":"45.0"},{"user_id":"7IE1-PDJ4-IPH6-8K3L","item":"Gorgeous
+        Granite Gloves","spend":"35.99"},{"user_id":"S27G-8UMJ-LDSL-UOPN","item":"Durable
+        Concrete Hat","spend":"15.31"},{"user_id":"ZZLB-4HCN-OA3N-LGWB","item":"Synergistic
+        Concrete Watch","spend":"52.73"},{"user_id":"UGVF-VMM8-O666-O3O9","item":"Sleek
+        Bronze Plate","spend":"16.28"},{"user_id":"0RLF-9CWU-F15C-4S1N","item":"Practical
+        Iron Keyboard","spend":"79.52"},{"user_id":"S27G-8UMJ-LDSL-UOPN","item":"Heavy
+        Duty Granite Bench","spend":"22.25"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Heavy
+        Duty Linen Keyboard","spend":"4.4"},{"user_id":"EIGM-YGNY-BE29-UXXY","item":"Incredible
+        Rubber Coat","spend":"56.78"},{"user_id":"T8VE-2OW8-A7SF-JZOB","item":"Synergistic
+        Cotton Clock","spend":"42.32"},{"user_id":"KZHR-1H35-2IH8-JXYN","item":"Practical
+        Rubber Lamp","spend":"63.96"},{"user_id":"S27G-8UMJ-LDSL-UOPN","item":"Fantastic
+        Steel Bottle","spend":"5.64"},{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Enormous
+        Silk Plate","spend":"61.73"},{"user_id":"9ULJ-MRE5-D2Q3-JW90","item":"Ergonomic
+        Linen Shoes","spend":"42.86"},{"user_id":"S27G-8UMJ-LDSL-UOPN","item":"Aerodynamic
+        Granite Bench","spend":"45.0"},{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Fantastic
+        Concrete Shirt","spend":"39.76"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Durable
+        Granite Knife","spend":"28.49"},{"user_id":"0RLF-9CWU-F15C-4S1N","item":"Rustic
+        Aluminum Table","spend":"97.14"},{"user_id":"T8VE-2OW8-A7SF-JZOB","item":"Intelligent
+        Wool Watch","spend":"38.68"},{"user_id":"7IE1-PDJ4-IPH6-8K3L","item":"Enormous
+        Leather Shirt","spend":"40.81"},{"user_id":"HTNF-7RJY-YFCU-GUN2","item":"Fantastic
+        Steel Table","spend":"61.98"},{"user_id":"9ULJ-MRE5-D2Q3-JW90","item":"Small
+        Wooden Clock","spend":"72.79"},{"user_id":"0RLF-9CWU-F15C-4S1N","item":"Sleek
+        Iron Computer","spend":"43.09"},{"user_id":"ZZLB-4HCN-OA3N-LGWB","item":"Sleek
+        Paper Keyboard","spend":"91.62"},{"user_id":"NGE1-SZL3-4WUU-NWD9","item":"Practical
+        Linen Hat","spend":"59.28"},{"user_id":"0RLF-9CWU-F15C-4S1N","item":"Small
+        Paper Table","spend":"17.22"},{"user_id":"PJ69-9VN5-D5NA-IEB4","item":"Incredible
+        Wool Bottle","spend":"48.91"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Rustic
+        Wooden Bag","spend":"62.31"},{"user_id":"EBWH-1WRI-HM73-0X9K","item":"Intelligent
+        Bronze Table","spend":"20.17"},{"user_id":"KZHR-1H35-2IH8-JXYN","item":"Synergistic
+        Iron Shirt","spend":"19.23"},{"user_id":"S27G-8UMJ-LDSL-UOPN","item":"Awesome
+        Copper Shirt","spend":"43.79"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Fantastic
+        Aluminum Lamp","spend":"60.4"},{"user_id":"HTNF-7RJY-YFCU-GUN2","item":"Sleek
+        Marble Bottle","spend":"26.12"},{"user_id":"0RLF-9CWU-F15C-4S1N","item":"Durable
+        Wool Keyboard","spend":"80.0"},{"user_id":"ZZLB-4HCN-OA3N-LGWB","item":"Awesome
+        Iron Bag","spend":"57.85"},{"user_id":"PJ69-9VN5-D5NA-IEB4","item":"Ergonomic
+        Silk Computer","spend":"60.77"},{"user_id":"T8VE-2OW8-A7SF-JZOB","item":"Lightweight
+        Bronze Coat","spend":"93.9"},{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Sleek
+        Linen Bottle","spend":"97.32"},{"user_id":"9ULJ-MRE5-D2Q3-JW90","item":"Rustic
+        Bronze Watch","spend":"68.33"},{"user_id":"HTNF-7RJY-YFCU-GUN2","item":"Mediocre
+        Concrete Clock","spend":"27.89"},{"user_id":"6TW3-5C51-K7VY-RY4A","item":"Practical
+        Leather Gloves","spend":"5.9"},{"user_id":"6TW3-5C51-K7VY-RY4A","item":"Incredible
+        Linen Wallet","spend":"22.21"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Intelligent
+        Steel Bag","spend":"98.2"},{"user_id":"ZZLB-4HCN-OA3N-LGWB","item":"Ergonomic
+        Wool Wallet","spend":"9.11"},{"user_id":"FFWN-1CKR-X4WU-Q44M","item":"Sleek
+        Wooden Wallet","spend":"44.06"},{"user_id":"HRZH-TR5Y-OVZN-2ZHI","item":"Durable
+        Leather Hat","spend":"33.08"},{"user_id":"PJ69-9VN5-D5NA-IEB4","item":"Practical
+        Steel Bench","spend":"57.78"},{"user_id":"NGE1-SZL3-4WUU-NWD9","item":"Sleek
+        Cotton Bottle","spend":"88.96"},{"user_id":"BMCS-1VS1-39KR-7OUM","item":"Synergistic
+        Wool Gloves","spend":"53.76"},{"user_id":"PJ69-9VN5-D5NA-IEB4","item":"Intelligent
+        Steel Chair","spend":"59.41"},{"user_id":"EBWH-1WRI-HM73-0X9K","item":"Enormous
+        Granite Chair","spend":"43.63"},{"user_id":"T8VE-2OW8-A7SF-JZOB","item":"Aerodynamic
+        Rubber Plate","spend":"2.05"},{"user_id":"EBWH-1WRI-HM73-0X9K","item":"Lightweight
+        Leather Bottle","spend":"42.24"},{"user_id":"S27G-8UMJ-LDSL-UOPN","item":"Heavy
+        Duty Silk Gloves","spend":"47.51"},{"user_id":"NGE1-SZL3-4WUU-NWD9","item":"Heavy
+        Duty Iron Shirt","spend":"91.18"},{"user_id":"9ULJ-MRE5-D2Q3-JW90","item":"Intelligent
+        Wooden Bottle","spend":"59.59"},{"user_id":"NGE1-SZL3-4WUU-NWD9","item":"Gorgeous
+        Marble Gloves","spend":"26.7"},{"user_id":"EIGM-YGNY-BE29-UXXY","item":"Gorgeous
+        Wool Car","spend":"47.33"},{"user_id":"HEI7-W5NW-OO9S-Z382","item":"Enormous
+        Paper Computer","spend":"54.58"},{"user_id":"6TW3-5C51-K7VY-RY4A","item":"Practical
+        Steel Shirt","spend":"17.18"}]}'
+    http_version: 
+  recorded_at: Sat, 24 Nov 2018 12:45:13 GMT
+recorded_with: VCR 4.0.0
