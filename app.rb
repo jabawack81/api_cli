@@ -21,7 +21,7 @@ when "total_spend"
 when "most_loyal"
   raise "Malformed command" unless argument.nil?
 
-  puts Api.most_loyal
+  puts Api.most_loyal.email
 else
   raise "Unrecognized command"
 end
