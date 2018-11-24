@@ -1,0 +1,32 @@
+# frozen_string_literal: true
+
+# most_sold:            What is the name of the most sold item?
+# total_spend [EMAIL]:  What is the total spend of the user with this email address [EMAIL]?
+# most_loyal:           What is the email address of the most loyal user (most purchases)?
+
+require "faraday"
+require "json"
+
+command = ARGV[0]
+argument = ARGV[1]
+
+case command
+when "most_sold"
+  response = Faraday.get("https://driftrock-dev-test.herokuapp.com/purchases")
+  purchases = JSON.parse(response.body)["data"]
+  p purchases.group_by { |purchase| purchase["item"] }.max { |a, b| a[1].length <=> b[1].length }.first
+when "total_spend"
+  users_response = Faraday.get("https://driftrock-dev-test.herokuapp.com/users")
+  purchases_response = Faraday.get("https://driftrock-dev-test.herokuapp.com/purchases")
+  users = JSON.parse(users_response.body)["data"]
+  purchases = JSON.parse(purchases_response.body)["data"]
+  user_id = users.select { |user| user["email"] == argument }.first["id"]
+  p purchases.select { |purchase| purchase["user_id"] == user_id }.map { |purchase| purchase["spend"].to_f }.sum
+when "most_loyal"
+  users_response = Faraday.get("https://driftrock-dev-test.herokuapp.com/users")
+  purchases_response = Faraday.get("https://driftrock-dev-test.herokuapp.com/purchases")
+  users = JSON.parse(users_response.body)["data"]
+  purchases = JSON.parse(purchases_response.body)["data"]
+  user_id = purchases.group_by { |purchase| purchase["user_id"] }.max { |a, b| a[1].length <=> b[1].length }.first
+  p users.select { |user| user["id"] == user_id }.first["email"]
+end
